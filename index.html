@@ -14,42 +14,72 @@
   <body>
     <div class="container">
 
-      <!-- Title -->
+      <!-- Title
       <div class="row">
-        <!-- Redo this row with Image+Tabs+Home buttons+Menu format -->
         <div class="col-xs-3">
-          <!-- Image will be a button to home -->
           <img class="title-logo img-circle" src="http://placehold.it/50x50" alt="Logo" />
         </div>
         <div class="col-xs-9 text-right text-uppercase">
-          <!-- <h1 class="title-super text-thin">Duke Energy</h1> -->
           <h1 class="text-thin">Duke Energy</h1>
           <h4>Mobile</h4>
         </div>
-      </div>
+      </div> -->
 
-      <!-- Tabs ***Move this up into title-->
-      <div class="row">
-        <div class="tabbable"> <!-- Only required for left/right tabs -->
-          <ul class="nav nav-tabs text-nav">
-            <!-- Redo with height of 44px -->
-            <li class="active"><a href="#tab1" data-toggle="tab">JCF</a></li>
-            <li><a href="#tab2" data-toggle="tab">Map</a></li>
-            <li><a href="#tab3" data-toggle="tab">Placeholder</a></li>
-          </ul>
-          <div class="tab-content">
-            <div class="tab-pane active" id="tab1">
-              <p></p>
-            </div>
-            <div class="tab-pane" id="tab2">
-              <p></p>
-            </div>
-            <div class="tab-pane" id="tab3">
-              <p></p>
-            </div>
+      <!-- Nav -->
+      <nav class="navbar navbar-default title-logo" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img class="img-circle img-responsive" src="http://placehold.it/25x25" alt="Logo" />
+            </a>
           </div>
-        </div>
-      </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active">
+                <a href="#">
+                  <span class="glyphicon glyphicon-file"></span> JCF
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-map-marker"></span> MAP
+                </a>
+              </li>
+              <li><a href="#">Link</a></li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
 
       <div class="row">
         <!-- Nav Pills -->
@@ -117,44 +147,41 @@
         <div class="col-xs-9">
           <table class="table">
             <tr>
-              <th></th>
               <th>Job ID</th>
               <th>eMax No.</th>
               <th>Acct No.</th>
               <th>Serial No.</th>
-              <th></th>
             </tr>
             <tr>
-              <td>[Remove Button]</td>
               <td>15</td>
               <td>223335</td>
               <td>2344</td>
               <td>678</td>
-              <td>[Add Button]</td>
             </tr>
             <tr>
-              <td>[Remove Button]</td>
               <td>15</td>
               <td>223335</td>
               <td>2344</td>
               <td>678</td>
-              <td>[Add Button]</td>
             </tr>
             <tr>
-              <td>[Remove Button]</td>
               <td>15</td>
               <td>223335</td>
               <td>2344</td>
               <td>678</td>
-              <td>[Add Button]</td>
             </tr>
             <tr>
-              <td>[Remove Button]</td>
               <td>15</td>
               <td>223335</td>
               <td>2344</td>
               <td>678</td>
-              <td>[Add Button]</td>
+            </tr>
+            <tr>
+              <td class="text-center" colspan="4">
+                <button type="button" class="btn btn-default btn-lg">
+                  <span class="glyphicon glyphicon-plus"></span> Add New Row
+                </button>
+              </td>
             </tr>
           </table>
         </div>
